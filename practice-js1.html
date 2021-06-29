@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 1</title>
+    <title>Document</title>
 </head>
 <body>
-    <h2>Practice code for ID</h2>
-    <p id ="click">
-        <button onclick="myfunction()">Click Here</button>
-    </p>
-    <script>
-        function myfunction(){
-        document.getElementById("demo").innerHTML = "hello javascript!"
+    
+<h1>The onclick Event</h1>
 
-        }
-    </script>
+<p>The onclick event is used to trigger a function when an element is clicked on.</p>
+
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 </body>
 </html>
+
+
